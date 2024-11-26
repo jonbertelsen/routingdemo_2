@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  width: 20%;
+  width: 30%;
 }
 
 .content {
@@ -31,15 +31,6 @@ body {
 .sidebar {
   background-color: #e8e8e8;
   padding: 20px;
-}
-.sidebar li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1rem;
-  display: block;
-  padding: 8px 10px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .sidebar ul {

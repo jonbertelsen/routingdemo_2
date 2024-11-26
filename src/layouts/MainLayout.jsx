@@ -1,10 +1,12 @@
-import { NavLink, Outlet } from 'react-router'
+import { Link, NavLink, Outlet } from 'react-router'
 
 function MainLayout() {
   return (
     <div className='container'>
       <header className='header'>
-        <img src='teamBlogo.png' alt='Logo' className='logo' />
+        <Link to='/'>
+          <img src='teamBlogo.png' alt='Logo' className='logo' />
+        </Link>
       </header>
       <div className='content'>
         <nav className='sidebar'>
